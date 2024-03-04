@@ -1,0 +1,6 @@
+**/venv
+**/.env
+**/models
+*.wav
+*.mp3
+*.png
