@@ -9,7 +9,7 @@ RATE = 22050
 CHUNK = 1024
 RECORD_SECONDS = 5
 WAVE_OUTPUT_FILENAME = "audio_grabado.wav"
-THRESHOLD = 1000  # Umbral de volumen para determinar si hay sonido
+THRESHOLD = 1500  # Umbral de volumen para determinar si hay sonido
 
 # Inicializar el objeto PyAudio
 audio = pyaudio.PyAudio()
