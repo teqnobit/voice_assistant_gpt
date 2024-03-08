@@ -10,7 +10,7 @@ load_dotenv()
 openai = OpenAI(api_key=os.environ.get('OPENAI_API_KEY'))
 
 print('Que quieres saber?')
-prompt = generate_text_from_record('base')
+prompt = generate_text_from_record(model='base')
 
 print('Obteniendo respuesta')
 response = openai.chat.completions.create(
